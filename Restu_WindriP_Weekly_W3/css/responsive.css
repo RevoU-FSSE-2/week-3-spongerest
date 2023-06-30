@@ -1,0 +1,267 @@
+@media (max-width:768px)
+{
+    .aside
+    {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        background-color: var(--yellow-color);
+        border-bottom: 2px solid var(--pink-color);
+        padding: 12px 20px;
+        height: 120px;
+        z-index: 100;
+        border-right: none;
+    }
+    .aside .logo
+    {
+    position: flex;
+    top: 0;
+    font-size: 30px;
+    text-transform: capitalize;
+    }
+    /* .aside .nav li a
+    {
+        display: inline-block;
+        color: var(--white-color);
+        text-align: center;
+        transition: 0.2s ease-in-out;
+        position: relative;
+        text-transform: uppercase;
+    } */
+    .nav
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        transition: all 0.2s ease-in-out;
+        background-color: var(--yellow-color);
+        border-left: 2px solid var(--pink-color);
+    }
+    .nav li
+    {
+        margin-top: 40px;
+    }
+    .nav li a
+    {
+        padding: 10px;
+    }
+    ul 
+    {
+        right: 100px;
+    }
+    .logo
+    {
+    display: flex;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    }
+    .open-nav,.close-nav
+    {
+        display: block;
+    }
+    #check:checked ~ .nav
+    {
+        right: 0;
+    }
+    .main-content
+    {
+        padding-left: 0;
+    }
+
+    .home
+    {
+        background-position: center center;
+        background-image: url(/images/peach-pit9.jpg);
+    }
+    .home .home-info,.song .song-item
+    {
+        text-align: center;
+    }
+    .nav li
+    {
+        margin-top: 40px;
+    }
+    .nav li a
+    {
+        padding: 10px;
+    }
+    .open-nav,.close-nav
+    {
+        display: block;
+    }
+    #check:checked ~ .nav
+    {
+        right: 0;
+    }
+    
+    .galery-item
+    {
+        width: 100%;
+        grid-gap: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "item10 item10"
+        "item10 item10"
+        "item1 item2"
+        "item3 item4"
+        "item5 item6"
+        "item7 item8 "
+        "item9 item9"
+        ;
+    }
+    img,iframe
+    {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    }
+    iframe:hover
+    {
+    transform: scale(1.05);
+    }
+    img:hover
+    {
+    transform: scale(1.05);
+    }
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info,
+    .about .about-content .personal-info .info-item
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .navigation
+    {
+        visibility: hidden;
+    }
+}
+@media (max-width:425px)
+{
+    .galery-item
+    {
+        display: flex;
+        width: 100%;
+        transition: 2s;
+    }
+    .galery-item img
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper
+    {
+        width: 100%;
+        margin: auto;
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+        /* min-height: 100vh; */
+    }
+    .navigation
+    {
+        visibility: visible;
+    }
+    .navigation a
+    {
+
+    }
+    #slide-1:target ~ .galery-item
+    {
+        margin-left: 0px;
+    }
+    #slide-2:target ~ .galery-item
+    {
+        margin-left: -105%;
+    }
+    #slide-3:target ~ .galery-item
+    {
+        margin-left: -225%;
+    }
+    #slide-4:target ~ .galery-item
+    {
+        margin-left: -348%;
+    }
+    #slide-5:target ~ .galery-item
+    {
+        margin-left: -468%;
+    }
+    #slide-6:target ~ .galery-item
+    {
+        margin-left: -588%;
+    }
+    #slide-7:target ~ .galery-item
+    {
+        margin-left: -710%;
+    }
+    #slide-8:target ~ .galery-item
+    {
+        margin-left: -830%;
+    }
+    #slide-9:target ~ .galery-item
+    {
+        margin-left: -952%;
+    }
+    #slide-10:target ~ .galery-item
+    {
+        margin-left: -1057%;
+    }
+    .navigation a
+    {
+        display: inline-block;
+        height: 48px;
+        width: 48px;
+        background-color: antiquewhite;
+        visibility: visible;
+        font-size: 0px;
+        border-radius: 50%;
+        transition: 1s;
+    }
+    .navigation a:hover
+    {
+        background-color: #666;
+    }
+    .navigation
+    {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-top: -110px;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-areas:
+        "a1 a2 a3 a4 a5"
+        "a6 a7 a8 a9 a10" ;
+        grid-gap: 5px;
+    }
+    .item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10
+    {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+    }
+}
