@@ -9,7 +9,7 @@ Website personal ini merupakan website yang bertujuan untuk memberi informasi be
 - Applying Custom font using @Font-face
 - Text Shadow
 - Responsive background image
-- Responsive image w picture+src+srcset
+- Responsive image w picture+src+srcset (max-width 425px)
 - Asymmetrical Grid
 - Responsive in Desktop and Mobile Device
 - Humberger Menu
