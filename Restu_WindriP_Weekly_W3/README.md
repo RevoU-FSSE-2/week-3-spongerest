@@ -17,7 +17,7 @@ Website personal ini merupakan website yang bertujuan untuk memberi informasi be
 - Animation w two methods
 - Accessibility and SEO score filled
 - Night and Day mode still saved when user refresh the browser
-- Image Carousel WITHOUTH JS
+- Image Carousel WITHOUT JS
 ![alt text](https://github.com/RevoU-FSSE-2/week-3-spongerest/blob/main/Restu_WindriP_Weekly_W3/images/SS%20Jadi%20Mobile%20Ver.png)
 ![alt text](https://github.com/RevoU-FSSE-2/week-3-spongerest/blob/main/Restu_WindriP_Weekly_W3/images/SS%20Jadi%20Desktop%20Ver.png)
 
